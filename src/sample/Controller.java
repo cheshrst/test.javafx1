@@ -9,8 +9,6 @@ public class Controller {
     private TextField inputField;
     @FXML
     private ListView<String> listView;
-       @FXML
-    private TableView tableView;
       @FXML
     public void addWordToList(){
         String word = inputField.getText();
